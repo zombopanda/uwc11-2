@@ -1,0 +1,37 @@
+.calendar .table {
+    margin: 10px 10px;
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+}
+
+.calendar .table.week td {
+    width: 90px;
+    height: 20px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    padding: 0;
+}
+
+.calendar .table.week .event {
+    background-color: red;
+    width: 14px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}
+
+.calendar .table.month td {
+    width: 140px;
+    height: 70px;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    padding: 0;
+}
+
+.calendar .table.month .event {
+    background-color: red;
+    width: 14px;
+    height: 20px;
+    margin-right: 5px;
+    float: left;
+}

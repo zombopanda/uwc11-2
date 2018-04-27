@@ -1,0 +1,10 @@
+.menu {
+  float: left;
+  margin: 10px 10px;
+}
+
+.menu-wrap:after {
+  content: '';
+  display: block;
+  clear: both;
+}

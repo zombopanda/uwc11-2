@@ -1,0 +1,9 @@
+.calendar {
+    margin: 10px 10px;
+}
+
+.calendar .date {
+    display: inline-block;
+    padding: 2px 6px;
+    height: 27px;
+}
