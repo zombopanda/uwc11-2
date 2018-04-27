@@ -1,6 +1,8 @@
-## Run
+## Setup && Run
 
 ```
+yarn
+yarn build
 yarn global add serve
-serve build
+serve -s build
 ```
